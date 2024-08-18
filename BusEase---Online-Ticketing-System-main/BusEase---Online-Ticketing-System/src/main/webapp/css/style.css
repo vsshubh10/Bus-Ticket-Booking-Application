@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+:root {
+    --color-primary: #115DCB;
+    --color-secondary: #1878FF;
+    --color-primary-light: #428BFE;
+    --white: #ffffff;
+    --yellow: #D29423;
+    --yellow-light: #D6AF62;
+
+
+    
+}
+
+
+.navbar{
+    background: #115DCB;
+}
+
+.nav_item {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+nav .bus_icon {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.navbar-brand{
+    margin-left: 70px;
+}
+
+.navbar-nav {
+    gap: 10px;
+    margin-right: 44px; 
+    font-weight: 700;
+}
+
+.primary_btn {
+    background: var(--color-primary);
+    color: var(--white);
+    display: inline-block;
+    width: fit-content;
+    padding: 0.8rem 1.6rem;
+    border: 1px solid transparent;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: all 400ms ease;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.primary_btn:hover {
+    background-color: #ffffff;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+
+}
+
+.mainh1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #115DCB;
+}
+
+
+
+
